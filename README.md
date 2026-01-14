@@ -1,7 +1,3 @@
-Got it! Here’s a **complete, updated `README.md`** for your project. It now includes **XAMPP/MySQL Workbench setup**, **mailer.php configuration**, **cloning instructions**, and installing Composer + PHPMailer from your GitHub repo. I’ve formatted it so someone can follow it step by step.
-
----
-
 # 📐 Calculator Web Application
 
 A secure PHP-based calculator web application with user authentication, email verification, OTP, and password recovery. Designed for learning and demonstration purposes.
