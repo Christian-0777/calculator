@@ -10,12 +10,12 @@ function sendMail($to, $subject, $body) {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'nickelodeonknows57@gmail.com';
-    $mail->Password = 'mzmv fmrc qkwa eaop';
+    $mail->Username = 'example@gmail.com';
+    $mail->Password = 'exam plep assw ords';
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
 
-    $mail->setFrom('nickelodeonknows57@gmail.com', 'Calculator App');
+    $mail->setFrom('example@gmail.com', 'Calculator App');
     $mail->addAddress($to);
 
     $mail->isHTML(true);
