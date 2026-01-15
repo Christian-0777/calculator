@@ -15,7 +15,7 @@ function sendMail($to, $subject, $body) {
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
 
-    $mail->setFrom('example@gmail.com', 'Calculator App');
+    $mail->setFrom('the_secured_calculator@calculator.com', 'Secured Calculator');
     $mail->addAddress($to);
 
     $mail->isHTML(true);
